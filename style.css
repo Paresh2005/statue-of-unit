@@ -4,6 +4,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 ::selection{
@@ -137,6 +138,7 @@ nav .menu{
 
 .container{
     background: #000;
+    overflow-x: hidden;
 }
 
 .container .vidoes{
@@ -267,7 +269,7 @@ nav .menu{
     background: #4054B2;
     color: #FFF;
     overflow-y: scroll;
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 
