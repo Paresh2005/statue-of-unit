@@ -219,6 +219,7 @@ nav .menu{
     .container .vidoes{
         float: none;
         width: 100%;
+        overflow-wrap: break-word;
     }
 
     .container .Information{
@@ -381,6 +382,7 @@ nav .menu{
 }
 
 .sardarvalbhbhaiPatelHistroy .sardarVallbhbhaiPatelImg{
+    height: 100vh;
     float: left;
     width: 50%;
 }
@@ -388,6 +390,7 @@ nav .menu{
 .sardarvalbhbhaiPatelHistroy .sardarvalbhbhaiPatelInformation{
     float: left;
     width: 50%;
+    height: 100vh;
 }
 
 .sardarvalbhbhaiPatelInformation p{
@@ -425,10 +428,12 @@ nav .menu{
 
     .stateOfUnitInformation{
         background: #4054B2;
+        height: 100vh;
         color: #FFF;
-        height:810.5vh;
         overflow-y: scroll;
     }
+
+
 }
 
 /* footer */
@@ -438,6 +443,6 @@ nav .menu{
     text-align: center;
     color: darkgray;
     font-family: sans-serif;
-    padding: 2rem;
+    padding: 1rem;
 }
 
