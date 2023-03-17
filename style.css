@@ -186,7 +186,6 @@ nav .menu{
     border-bottom:5vh solid #f58634;
     color: #547473;
     background: rgb(255, 230, 0);
-    height: 450vh;
     overflow-y: scroll;
 }
 
@@ -404,6 +403,10 @@ nav .menu{
         font-size: 2vh;
         line-height: 3rem;
     }
+
+    .status .statusItem img{
+        height: 30vh;
+    }
     
 
     .sardarvalbhbhaiPatelHistroy .sardarvalbhbhaiPatelInformation{
@@ -414,9 +417,6 @@ nav .menu{
         margin-bottom: 5rem;
     }
 
-    .sardarVallbhbhaiPatelImg img{
-        height: 10vh;
-    }
 
     .sardarvalbhbhaiPatelHistroy .sardarVallbhbhaiPatelImg{
         float: none;
